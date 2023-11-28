@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+         
+     class Hospitality {
+        constructor(salonname,openclosetime,haircutprice,cityname){
+            this.salonname=salonname
+            this.openclosetime=openclosetime
+            this.haircutprice=haircutprice
+            this.cityname=cityname
+        }
+     }
+
+     let salon = new Hospitality("kapil","10am-10pm","250-300","himmatnagar")
+     console.log(salon);
+
+     let salon1 = new Hospitality("M&S","9am-10pm","300-550","ahemdabad") 
+     console.log(salon1);
+
+     let salon2 = new Hospitality("lookas","10am-10pm","200-250","himmatnagar")
+     console.log(salon2);
+
+
+     class Animal {
+        constructor(animalname,animaltype){
+            this.animalname=animalname
+            this.animaltype=animaltype
+        }
+
+     }
+
+     let animal1 = new Animal("juhi","cat")
+     console.log(animal1);
+
+     let animal2 =new Animal("honey","dog")
+     console.log(animal2);
+
+
+     class Student{
+        constructor(institutename, studentname,Studentage,studentclass){
+            this.institutename=institutename
+            this.studentname=studentname
+            this.Studentage=Studentage
+            this.studentclass=studentclass
+        }
+     }
+
+     let student1 = new Student("vidhyanagari(hmt)","Bhumi",22,"12th")
+     console.log(student1); 
+
+     let student2 = new Student("vidhyanagari(hmt)","Hani",21,"11th")
+     console.log(student2);
+     
+     let student3 = new Student("vidhyanagari(hmt)","Divya",22,"12th")
+     console.log(student3);
+
+
+
+
+     class Institute extends Student{
+
+        }
+        let bhumi = new Student("D.L.Patel(hmt)","vidhyanagari","Bhumi",22,"12th")
+     console.log(bhumi); 
+
+     let hani = new Student("vidhyanagari(hmt)","Hani",21,"11th")
+     console.log(hani);
+     
+     let divya = new Student("vidhyanagari(hmt)","Divya",22,"12th")
+     console.log(divya);
+     
+        class Bank {
+            constructor(bankname,openndclosingtime,location){
+                this.bankname=bankname
+                this.openndclosingtime=openndclosingtime
+                this.location=location
+            }
+        }
+
+        let bank1 = new Bank ("SBI Bank","11am-4pm","himmatnagar")
+        console.log(bank1);
+
+        let bank2 = new Bank ("Bank of Baroda","11am-5pm","himmatnagar")
+        console.log(bank2);
+
+        let bank3 = new Bank("S.K bank","11am-6pm","gambhoi")
+        console.log(bank3);
+
+    </script>
+   
+
+</body>
+</html>
